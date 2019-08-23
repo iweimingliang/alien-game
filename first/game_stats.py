@@ -6,7 +6,7 @@ class GameStats():
         self.reset_stats()
         # 游戏刚启动时处于活动状态
         self.game_active = False
-        # 在任何情况下都不应充值最高得分
+        # 在任何情况下都不应重置最高得分
         self.high_score = 0
          
 
